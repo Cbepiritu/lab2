@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
- <title>THe Witcher 3</title>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
 			background-image: url("witcher3_en_wallpaper_wallpaper_10_1920x1200_1433327727.jpg");
@@ -11,7 +13,7 @@ body {
 
 #myHeader {
   background-color: lightblue;
-  color: black;
+  color: white;
   padding: 40px;
   text-align: center;
   }
@@ -22,36 +24,107 @@ body {
   margin: 20px;
   padding: 20px;
 }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: lightblue;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: DodgerBlue;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: lightblue;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
 </style>
 </head>
 <body>
-
 <h1 id="myHeader">THE WITCHER</h1>
+<h2 style="color:white;">THE WITCHER</h2>
+<p style="color:white;">A witcher is a fictional character from the book series "The Witcher" by Andrzej Sapkowski. 
+Witchers are monster hunters who undergo extensive physical and magical training, as well as being infused with potions and mutagens that enhance their abilities. 
+They are hired to deal with supernatural threats such as monsters and curses and are known for their expertise in tracking and combat. 
+The series has been adapted into a popular video game franchise and a television series.</p>
 
-<div class="witcher">
-<h2>Nilfgaard</h2>
-<p>Nilfgaard is the name of an empire whose people are referred to as Nilfgaardians. They are a culturally diverse group with different ethnic backgrounds, languages, religions, and customs. Nilfgaardians are known for their military discipline, advanced technology, and sophisticated bureaucracy. They are often portrayed as pragmatic and results-oriented, valuing efficiency over tradition and honor. However, individual Nilfgaardians have their own unique personalities, motivations, and moral compasses.</p>
+
+<header>
+  <h2>Factions</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Nilfgaard</a></li>
+      <li><a href="#">Temarian</a></li>
+      <li><a href="#">Scoia'tael</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Nilfgaard</h1>
+    <p>Nilfgaard is the name of an empire whose people are referred to as Nilfgaardians. 
+	They are a culturally diverse group with different ethnic backgrounds, languages, religions, and customs. 
+	Nilfgaardians are known for their military discipline, advanced technology, and sophisticated bureaucracy. 
+	They are often portrayed as pragmatic and results-oriented, valuing efficiency over tradition and honor. 
+	However, individual Nilfgaardians have their own unique personalities, motivations, and moral compasses.</p>
 </div> 
+  </article>
+</section>
 
-<div class="witcher">
-<h2>Temarian</h2>
-<p>Temeria is a fictional kingdom in The Witcher series, located in the northern part of the continent. It is known for its fertile lands, thriving cities, and skilled knights, and is ruled by a king who holds both political and military power. Temeria has a culturally diverse population and has been involved in many wars and conflicts, often allied with other Northern Kingdoms against Nilfgaard. However, Temeria ultimately falls to the forces of Nilfgaard in the course of the story.</p>
-</div>
-
-<div class="witcher">
-<h2>Scoia'tael</h2>
-<p>Scoia'tael is a group of elven guerilla fighters in The Witcher world who fight against human dominance and seek to establish an independent elven state. They use hit-and-run tactics, ambushes, and guerrilla warfare to achieve their goals and are viewed with fear and suspicion by many humans. The Scoia'tael believe that violence is necessary to fight against centuries of human oppression and mistreatment towards the elves. However, they also have allies and sympathizers among non-human races and some human individuals who support their cause.</p>
-</div>
-
-
-<img src="cropped-1920-1080-982990.jpg" width="900" height="506">
-
-<img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain" style="width:300px">
+<footer>
+  <p> <img src="cropped-1920-1080-982990.jpg" width="900" height="506"> </p>
+</footer>
 
 </body>
 </html>
-
-
-
-
 
