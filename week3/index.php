@@ -95,7 +95,7 @@
                         <img src="assets/img/LoveScars.jpg" alt="Metiew and Smith">
                       </div>
                       <p class="slider--item-title">CJ Espiritu</p>
-                      <p class="slider--item-description">WASAAAAAP CHARD.</p>
+                      <p class="slider--item-description">WASAAAAAP.</p>
                     </a>
                   </li>
                   <li class="slider--item slider--item-right">
