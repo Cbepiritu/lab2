@@ -18,7 +18,7 @@
     <img src="assets/img/logo.png" alt="Royal">
     <p>Royal</p>
   </a>
-  <p class="device-notification--message">Global has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
+  <p class="device-notification--message">Royal has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
 </div>
 
 <div class="perspective effect-rotate-left">
@@ -131,7 +131,7 @@
           <li class="l-section section">
             <div class="about">
               <div class="about--banner">
-                <h2>We<br>believe in<br>passionate<br>people</h2>
+                <h2>I<br>believe in<br>passionate<br>people</h2>
                 <a href="#0">Career
                   <span>
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
@@ -145,10 +145,10 @@
               </div>
               <div class="about--options">
                 <a href="#0">
-                  <h3>Certificates and Certifications</h3>
+                  <h3>Awards</h3>
                 </a>
                 <a href="#0">
-                  <h3>Philosophy</h3>
+                  <h3>Certification</h3>
                 </a>
                 <a href="#0">
                   <h3>History</h3>
@@ -161,13 +161,15 @@
               <div class="contact--lockup">
                 <div class="modal">
                   <div class="modal--information">
-                    <p>Pawia 5, 31-154 Kraków, Poland</p>
+                    <p>Phase 1 AFPOVAI, Taguig city, 1630</p>
                     <a href="cbespiritu@student.apc.edu.ph">cbespiritu@student.apc.edu.ph</a>
-                    <a href="tel:+148126287560">+48 12 628 75 60</a>
+                    <a href="tel:+148126287560">Smart</a>
+					<a href="tel:+148126287560">Globe</a>
+					<a href="tel:+148126287560">Landline</a>
                   </div>
                   <ul class="modal--options">
-                    <li><a href="#0">Email</a></li>
-                    <li><a href="#0">Instagram</a></li>
+                    <li><a href="cbespiritu@student.apc.edu.ph">Email</a></li>
+                    <li><a href="cj_sprite">Instagram</a></li>
                     <li><a href="cbespiritu@student.apc.edu.ph">Contact Us</a></li>
                   </ul>
                 </div>
@@ -181,7 +183,9 @@
               <form class="work-request">
                 <div class="work-request--options">
                   <span class="options-a">
-                    <input id="opt-1" type="checkbox" value="app design">
+                    
+					
+					<input id="opt-1" type="checkbox" value="app design">
                     <label for="opt-1">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -191,7 +195,9 @@
                       </svg>
                       App Design
                     </label>
-                    <input id="opt-2" type="checkbox" value="graphic design">
+                   
+
+				   <input id="opt-2" type="checkbox" value="graphic design">
                     <label for="opt-2">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -201,7 +207,9 @@
                       </svg>
                       Graphic Design
                     </label>
-                    <input id="opt-3" type="checkbox" value="motion design">
+                   
+
+				   <input id="opt-3" type="checkbox" value="motion design">
                     <label for="opt-3">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -213,7 +221,9 @@
                     </label>
                   </span>
                   <span class="options-b">
-                    <input id="opt-4" type="checkbox" value="ux design">
+                    
+					
+					<input id="opt-4" type="checkbox" value="ux design">
                     <label for="opt-4">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -223,7 +233,9 @@
                       </svg>
                       UX Design
                     </label>
-                    <input id="opt-5" type="checkbox" value="webdesign">
+                   
+
+				   <input id="opt-5" type="checkbox" value="webdesign">
                     <label for="opt-5">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
@@ -233,7 +245,9 @@
                       </svg>
                       Webdesign
                     </label>
-                    <input id="opt-6" type="checkbox" value="marketing">
+                   
+
+				   <input id="opt-6" type="checkbox" value="marketing">
                     <label for="opt-6">
                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
